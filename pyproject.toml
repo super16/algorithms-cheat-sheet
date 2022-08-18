@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "algorithms-cheat-sheet"
+version = "0.1.0"
+description = "Collection of algorithms implementations."
+authors = ["super16"]
+readme = "README.md"
+packages = [{include = "algorithms_cheat_sheet"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.0"
+coverage = "^6.5.0"
+flake8 = "^5.0.4"
+mypy = "^0.990"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
